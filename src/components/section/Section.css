@@ -3,6 +3,7 @@
     height: 480px;
     padding: 0.75rem 2.5rem;
     font-family: sans-serif;
+    position: relative;
 }
 
 /* .call-to-action{
@@ -12,12 +13,17 @@
 .wrapper h1{
     font-size: 40px;
     font-weight: bold;
+    max-width: 50%;
 }
 
 .wrapper p{
     font-size: 20px;
     max-width: 90%;
     
+}
+.h1-span{
+    position: absolute;
+    top: 5rem;
 }
 
 .h1-span, .p-span{
@@ -68,6 +74,15 @@
     color: #7E1CFE;
 }
 
+@keyframes retink-animation {
+    from{
+        bottom: 0;
+        height: auto;
+    }
+    to{
+        top: 0;
+    }
+}
 .animation{
     animation: retink-animation 5s  infinite alternate ;
 }

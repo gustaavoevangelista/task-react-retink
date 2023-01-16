@@ -6,8 +6,8 @@ export default function Section(){
             <div className='wrapper'>
                 <div className='call-to-action'>
                     <h1>
-                        <span>Get Advanced AI </span>
-                        + Expert Created <span className='h1-span'>Logos</span>
+                        <span>Get Advanced AI + Expert Created </span>
+                        <span className='h1-span'>Logos</span>
                     </h1>
 
                     <p>
