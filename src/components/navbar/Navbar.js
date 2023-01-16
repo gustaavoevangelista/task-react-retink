@@ -5,7 +5,9 @@ export default function Navbar(){
     return(
         <>
             <div className='navbar'> 
-                <img src='/img/retink-logo.jpeg' alt='retink logo'></img>
+                <a href="/">
+                    <img src='/img/retink-logo.jpeg' alt='retink logo'></img>
+                </a>
             </div>
         </>
     )

@@ -1,12 +1,14 @@
 import Header from './components/navbar/Navbar';
-import Section from './components/section/Section';
+import Section1 from './components/section1/Section1';
+import Section2 from './components/section2/Section2';
 
 function App() {
   return (
     <>
       <div className="App">
         <Header />
-        <Section />
+        <Section1 />
+        <Section2 />
 
       </div>
     </>

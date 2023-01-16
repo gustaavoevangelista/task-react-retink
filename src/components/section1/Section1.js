@@ -1,6 +1,6 @@
-import './Section.css'
+import './Section1.css'
 
-export default function Section(){
+export default function Section1(){
     return (
         <>
             <div className='wrapper'>
