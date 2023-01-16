@@ -6,19 +6,15 @@
     position: relative;
 }
 
-/* .call-to-action{
-
-} */
-
 .wrapper h1{
     font-size: 40px;
     font-weight: bold;
     max-width: 50%;
 }
 
-.wrapper p{
+.call-to-action p{
     font-size: 20px;
-    max-width: 90%;
+    max-width: 65%;
     
 }
 .h1-span{
@@ -75,18 +71,20 @@
 }
 
 @keyframes retink-animation {
-    from{
-        bottom: 0;
-        height: auto;
-    }
-    to{
-        top: 0;
-    }
+    from {
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+      }
+      to {
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+      }
 }
 .animation{
+    height: 100%;
     animation: retink-animation 5s  infinite alternate ;
 }
 .animation img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
