@@ -40,6 +40,7 @@
     border-bottom: 1px solid #000000;
     width: 150px;
     text-align: center;
+    background: #F5F5F5;
 }
 .inputs input::placeholder{
     color: #7E1CFE;
@@ -63,6 +64,10 @@
     color: #ffffff;
     width: 120px;
     
+}
+
+.freelance-button{
+    background: #F5F5F5;
 }
 
 .freelance-button a{
