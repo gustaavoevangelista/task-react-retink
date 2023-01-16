@@ -46,6 +46,10 @@
     color: #7E1CFE;
 }
 
+input:focus{
+    outline: none;
+}
+
 .buttons{
     display: flex;
     gap: 8rem;
@@ -87,7 +91,7 @@
 }
 .animation{
     height: 100%;
-    animation: retink-animation 5s  infinite alternate ;
+    animation: retink-animation 5s infinite alternate ;
 }
 .animation img{
     max-width: 100%;
