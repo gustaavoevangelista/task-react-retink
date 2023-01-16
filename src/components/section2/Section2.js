@@ -6,7 +6,7 @@ export default function Section2(){
             <h1 className='title-section2'>EXPLAINER VIDEO</h1>
             <br/>
             <br/>
-            <br/>
+
             <div className='video-section2'>
                 <iframe 
                 width="730" 

@@ -1,0 +1,9 @@
+{
+    "eslint.format.enable": false,
+    "eslint.debug": true,
+    "eslint.lintTask.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}

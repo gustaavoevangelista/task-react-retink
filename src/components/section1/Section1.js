@@ -35,7 +35,7 @@ export default function Section1(){
                 </div>
 
                 <div className='animation'>
-                    <img src='/img/Retink-avatar.png' alt='avatar'></img>
+                    <img src='/img/section1/Retink-avatar.png' alt='avatar'></img>
                 </div>
 
             </div>
