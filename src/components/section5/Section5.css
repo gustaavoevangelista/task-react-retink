@@ -1,0 +1,34 @@
+.cards-section5{
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 50rem;
+    padding: 1rem;
+}
+
+.card-section5{
+    max-width: 20rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+.card-body-section5{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.card-title-section5{
+    font-size: 20;
+    font-weight: bold;
+}
+
+.card-text-section5{
+    font-size: 15px;
+}

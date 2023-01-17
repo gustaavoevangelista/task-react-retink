@@ -1,13 +1,12 @@
-import './Section3.css'
+import './Section5.css'
 import Card from 'react-bootstrap/Card';
 import { useState, useEffect } from 'react';
 
-
-export default function Section3() {
+export default function Section5() {
     const [data, setData] = useState([])
 
     const fetchJson = () => {
-        fetch('./section3.json')
+        fetch('./section5.json')
             .then(response => {
                 return response.json();
             })
@@ -23,19 +22,19 @@ export default function Section3() {
 
     return (
         <>
-            <div className='cards'>
-                {data.map((i, key) => {
+            <div className='cards-section5'>
+                {data.map((index, key) => {
                     return (
-                        <Card key={key} className="card-bootstrap">
-                            <Card.Img variant="top" src={`/img/section3/${i.img}`} />
+                        <Card key={key} className="card-section5">
+                            <Card.Img className="card-img-section5" variant="top" src={`/img/section5/${index.img}`} />
 
-                            <Card.Body className='card-body'>
-                                <Card.Title className='card-title'>
-                                    {i.title}
+                            <Card.Body className='card-body-section5'>
+                                <Card.Title className='card-title-section5'>
+                                    {index.title}
                                 </Card.Title>
 
-                                <Card.Text className='card-text'>
-                                    {i.text}
+                                <Card.Text className='card-text-section5'>
+                                    {index.text}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -43,9 +42,9 @@ export default function Section3() {
 
                 })
                 }
-                
+
             </div>
-            
+
         </>
     )
 }

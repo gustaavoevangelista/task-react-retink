@@ -9,8 +9,8 @@
 }
 
 .text-section4 span{
-    color: #7E1CFE;
-    font-size: 40px;
+    color: var(--purple);
+    font-size: 28px;
     font-weight: bold;
 }
 

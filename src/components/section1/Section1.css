@@ -23,7 +23,7 @@
 }
 
 .h1-span, .p-span{
-    color: #7E1CFE;
+    color: var(--purple);
     font-weight: bold;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .inputs h3{
-    color: #7E1CFE;
+    color: var(--purple);
 }
 
 .inputs input{
@@ -43,7 +43,7 @@
     background: #F5F5F5;
 }
 .inputs input::placeholder{
-    color: #7E1CFE;
+    color: var(--purple);
 }
 
 input:focus{
@@ -63,24 +63,24 @@ input:focus{
 }
 
 .notify-button{
-    background: #7E1CFE;
-    border: 1px solid #7E1CFE;
+    background: var(--purple);
+    border: 1px solid var(--purple);
     color: #ffffff;
     width: 120px;
     cursor: pointer;
 }
 .notify-button:hover{
-    background: #6c16dd;
+    background: var(--purple-hover);
 }
 
 .freelance-button{
     background: #F5F5F5;
-    border: 1px solid #7E1CFE;
+    border: 1px solid var(--purple);
 }
 
 .freelance-button a{
     text-decoration: none;
-    color: #7E1CFE;
+    color: var(--purple);
 }
 
 @keyframes retink-animation {
