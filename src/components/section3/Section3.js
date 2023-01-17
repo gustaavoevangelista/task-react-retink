@@ -27,7 +27,7 @@ export default function Section3() {
                 {data.map((i, key) => {
                     return (
                         <Card key={key} className="card-bootstrap">
-                            <Card.Img variant="top" src={`/img/section3/${i.img}`} />
+                            <Card.Img  variant="top" src={`/img/section3/${i.img}`} />
 
                             <Card.Body className='card-body'>
                                 <Card.Title className='card-title'>

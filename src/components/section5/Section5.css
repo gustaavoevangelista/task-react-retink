@@ -1,34 +1,57 @@
 .cards-section5{
-    margin: 0 auto;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 0 4rem;
+    flex-wrap: wrap!important;
     gap: 2rem;
     height: 50rem;
-    padding: 1rem;
 }
 
 .card-section5{
     max-width: 20rem;
-    height: 18rem;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+    height: 20rem;
+    background-color: #F5F5F5 !important;
+    box-shadow: none!important;
 }
 
+.card-img-section5{
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 12rem;
+    border-radius: 20px;
+}
 
 .card-body-section5{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: left !important;
+    padding: 1rem 0 0 0!important;
 }
 
 .card-title-section5{
-    font-size: 20;
-    font-weight: bold;
+    font-weight: bold!important;
+    color: #393939!important;
+    width: fit-content;
 }
 
-.card-text-section5{
-    font-size: 15px;
+.card-title-section5::after{
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 var(--purple);
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50%;
+
 }
+.card-title-section5:hover::after{
+    width: 100%;
+}
+
+
+.card-text-section5{
+    font-size: 17px!important;
+    word-spacing: 3px;
+}
+
