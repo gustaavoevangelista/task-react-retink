@@ -1,0 +1,80 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+}
+
+.company-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    background: #D0D0D0;
+    padding: 4rem 6rem 4rem 2rem;
+}
+
+.footer-logo{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.company-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 640px;
+}
+
+.other-details{
+    display: flex;
+    
+    font-weight: bold;
+}
+
+.other-details p{
+    margin: 0;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.company-social-media{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.company-social-media ul {
+    padding: 0;
+}
+.company-social-media a {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.company-license-policy{
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15rem;
+}
+
+.license,
+.policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 1rem;
+}
+.policy a:hover{
+    color: #ffffffa4;
+}
