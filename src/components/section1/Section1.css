@@ -85,10 +85,10 @@ input:focus{
 
 @keyframes retink-animation {
     from {
-            transform: translateY(-10px);
+            transform: translateY(-30px);
       }
       to {
-            transform: translateY(70px);
+            transform: translateY(20px);
       }
 }
 .animation{

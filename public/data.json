@@ -1,0 +1,33 @@
+[
+    
+    {
+        "img": "AI.svg",
+        "title": "MAKEI-assisted Content Choices",
+        "text": "Access and Order from an extensive catalogue in any language and on your budget's terms. If unsure, our AI guides you to the best."
+    },
+
+    {
+        "img": "Groupupload.svg",
+        "title": "Upload and Maintain your Brand Identity",
+        "text": "Add your preferences and brand assets to ensure the contents is consistent with your brand identity. No brand asset? We can make for you!"
+    },
+
+    {
+        "img": "Vectorinform.svg",
+        "title": "Be informed as we create",
+        "text": "Your details are translated and sent to the AI, FP, or both (per your choice) as you relax and receive continuous updates."
+    },
+
+    {
+        "img": "Groupfeedback.svg",
+        "title": "Receive and Review",
+        "text": "The finished content is delivered and you can make corrections that we will effect to satisfy your requirements."
+    },
+
+    {
+        "img": "Vectorpublish.svg",
+        "title": "Publish and Monitor your contents’ progress",
+        "text": "The finished content is delivered and you can make corrections that we will effect to satisfy your requirements."
+    }  
+]
+
