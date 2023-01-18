@@ -29,8 +29,8 @@ export default function Footer(){
                             <a href='/'><img src='/img/footer/Facebook.png' alt='facebook logo'></img></a>
                             <a href='/'><img src='/img/footer/Twitter.png' alt='twitter logo'></img></a>
                             <a href='/'><img src='/img/footer/Instagram.svg' alt='instagram logo'></img></a>
-                            <a href='/'><img src='/img/footer/Linkedin.png' alt='linkedin logo'></img></a>
-                            <a href='/'><img src='/img/footer/Youtube.png' alt='youtube logo'></img></a>
+                            <a href='/'><img src='/img/footer/LinkedIn.png' alt='linkedin logo'></img></a>
+                            <a href='/'><img src='/img/footer/YouTube.png' alt='youtube logo'></img></a>
                             <a href='/'><img src='/img/footer/Pinterest.png' alt='pinterest logo'></img></a>
                         </ul>
                     </div>
