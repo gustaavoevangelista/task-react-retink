@@ -12,7 +12,6 @@ function App() {
     <>
       <Header />
       <div className="App">
-        
         <Section1 />
         <Section2 />
         <Section3 />

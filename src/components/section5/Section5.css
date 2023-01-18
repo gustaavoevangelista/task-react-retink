@@ -2,10 +2,10 @@
     font-family: sans-serif;
     display: flex;
     justify-content: center;
-    margin: 0 4rem;
+    padding: 2rem 4rem;
     flex-wrap: wrap!important;
     gap: 2rem;
-    height: 50rem;
+
 }
 
 .card-section5{
@@ -53,5 +53,6 @@
 .card-text-section5{
     font-size: 17px!important;
     word-spacing: 3px;
+    padding-bottom: 1rem;
 }
 

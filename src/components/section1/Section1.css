@@ -32,6 +32,7 @@
 }
 
 .inputs h3{
+    margin-top: 2rem;
     color: var(--purple);
 }
 
@@ -98,4 +99,18 @@ input:focus{
 .animation img{
     max-width: 100%;
     height: auto;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 1024px){
+    .wrapper h1{
+        max-width: 60%;
+    }
+
+    .inputs input{
+        width: 140px;
+    }
+    
 }

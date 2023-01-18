@@ -2,7 +2,6 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    
 }
 
 .company-details{
@@ -22,12 +21,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 640px;
+/*     max-width: 640px; */
 }
 
 .other-details{
     display: flex;
-    
     font-weight: bold;
 }
 
@@ -35,6 +33,7 @@ footer{
     margin: 0;
     margin: 1rem;
     margin-right: 3rem;
+    width: fit-content;
 }
 
 .company-social-media{
@@ -77,4 +76,13 @@ footer{
 }
 .policy a:hover{
     color: #ffffffa4;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 1024px){
+    .company-social-media{
+        margin-right: 0;
+    }
 }
