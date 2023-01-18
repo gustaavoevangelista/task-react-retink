@@ -9,6 +9,12 @@
     margin-bottom: 3rem;
 }
 
+.video-section2 iframe{
+    border: none;
+    width: 50rem;
+    height: 25rem;
+}
+
 
 /* Media queries */
 

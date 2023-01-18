@@ -55,11 +55,18 @@ input:focus{
     gap: 8rem;
 }
 
+@keyframes button-anim {
+    to {
+        transform: scale(1.1,1.1);
+    }
+}
 .buttons button{
     border-radius: 20px;
     padding: 0.75rem;
     text-align: center;
     font-weight: bold;
+    animation: button-anim 4s infinite;
+    transition: all .4s ease;
 }
 
 .notify-button{
