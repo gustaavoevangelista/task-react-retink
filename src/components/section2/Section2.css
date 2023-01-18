@@ -8,3 +8,14 @@
     justify-content: center;
     margin-bottom: 3rem;
 }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 768px){
+    .video-section2{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    
+}

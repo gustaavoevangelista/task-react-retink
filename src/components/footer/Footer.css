@@ -86,3 +86,21 @@ footer{
         margin-right: 0;
     }
 }
+
+
+@media only screen and (max-width: 768px){
+    .company-details{
+        font-size: 18px;
+        padding-right: 2rem;
+    }
+
+    .company-contacts{
+        width: 27rem;
+        font-size: 15px;
+    }
+
+    .other-details p{
+        width: fit-content;
+        margin: 0.5rem 1rem;
+    }
+}

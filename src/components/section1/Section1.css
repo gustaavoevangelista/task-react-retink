@@ -15,7 +15,6 @@
 .call-to-action p{
     font-size: 20px;
     max-width: 65%;
-    
 }
 .h1-span{
     position: absolute;
@@ -111,6 +110,31 @@ input:focus{
 
     .inputs input{
         width: 140px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .wrapper h1{
+        max-width: 75%;
+    }
+
+    .call-to-action p{
+        font-size: 20px;
+        max-width: 75%;
+    }
+
+    .inputs span,
+    .inputs input{
+        font-size: 12px;
+    }
+
+    .inputs input{
+        width: 110px;
+    }
+
+    .freelance-button{
+        width: 14rem;
     }
     
 }
