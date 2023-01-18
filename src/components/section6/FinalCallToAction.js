@@ -17,7 +17,10 @@ export default function FinalCallToAction(){
                 <br />
                 <div className='final-buttons'>
                     <button type='submit' className='notify-button'>Notify me</button>
-                    <button type='submit' className='freelance-button'><a href='https://retink.io/fap/'>Sign up as a freelancer partner</a></button>
+                    
+                    <button type='submit' className='freelance-button'>
+                        <a href='https://retink.io/fap/'>Sign up as a freelancer partner</a>
+                    </button>
                 </div>
             </div>
         </>

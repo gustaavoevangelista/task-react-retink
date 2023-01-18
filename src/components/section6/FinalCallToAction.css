@@ -59,6 +59,16 @@
     background: var(--purple-hover);
 }
 .final-buttons button:nth-child(2){
-    width: 340px;
+    width: fit-content;
     cursor: pointer;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 440px){
+    .final-inputs input{
+        width: 180px;
+    }
+    
 }

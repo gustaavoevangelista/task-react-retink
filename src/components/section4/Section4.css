@@ -19,3 +19,21 @@
     width: 50%;
     color: #4D4D4D;
 }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 440px){
+    .text-section4{
+        margin-bottom: 0;
+    }
+    .text-section4 span{
+        font-size: 25px;
+    }
+
+    .text-section4 p{
+        font-size: 18px;
+        width: 80%;
+    }
+    
+}
