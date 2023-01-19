@@ -1,9 +1,9 @@
-import './Section3.css'
+import './CardService.css'
 import Card from 'react-bootstrap/Card';
 import { useState, useEffect } from 'react';
 
 
-export default function Section3() {
+export default function CardService() {
     const [data, setData] = useState([])
 
     const fetchJson = () => {

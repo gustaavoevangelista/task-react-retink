@@ -1,6 +1,6 @@
-import './Section4.css'
+import './Text.css'
 
-export default function Section4(){
+export default function Text(){
     return (
         <>
             <div className='text-section4'>

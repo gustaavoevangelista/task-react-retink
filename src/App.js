@@ -1,10 +1,10 @@
 import Footer from './components/footer/Footer';
 import Header from './components/navbar/Navbar';
-import Section1 from './components/section1/Section1';
-import Section2 from './components/section2/Section2';
-import Section3 from './components/section3/Section3';
-import Section4 from './components/section4/Section4';
-import Section5 from './components/section5/Section5';
+import CallToAction from './components/section1/CallToAction';
+import Video from './components/section2/Video';
+import CardService from './components/section3/CardService';
+import Text from './components/section4/Text';
+import CardProduct from './components/section5/CardProduct';
 import FinalCallToAction from './components/section6/FinalCallToAction';
 
 function App() {
@@ -12,16 +12,15 @@ function App() {
     <>
       <Header />
       <div className="App">
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
+        <CallToAction />
+        <Video />
+        <CardService />
+        <Text />
+        <CardProduct />
         <FinalCallToAction />
       </div>
       <Footer/>
     </>
-    
   );
 }
 

@@ -1,4 +1,4 @@
-import './Section5.css'
+import './CardProduct.css'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { useState, useEffect } from 'react';
 
-export default function Section5() {
+
+export default function CardProduct() {
     const [data, setData] = useState([])
 
     const fetchJson = () => {
@@ -26,29 +27,6 @@ export default function Section5() {
 
     return (
         <>
-            {/* <div className='cards-section5'>
-                {data.map((index, key) => {
-                    return (
-                        <Card key={key} className="card-section5">
-                            <Card.Img className="card-img-section5" variant="top" src={`/img/section5/${index.img}`} />
-
-                            <Card.Body className='card-body-section5'>
-                                <Card.Title className='card-title-section5'>
-                                    {index.title}
-                                </Card.Title>
-
-                                <Card.Text className='card-text-section5'>
-                                    {index.text}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    )
-
-                })
-                }
-
-            </div> */}
-
             <div className='cards-section5'>
                 {data.map((index, key) => {
                     return (
@@ -75,11 +53,6 @@ export default function Section5() {
                 })}
 
             </div>
-
-            
-
-            
-
         </>
     )
 }

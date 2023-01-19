@@ -65,7 +65,7 @@ input:focus{
     padding: 0.75rem;
     text-align: center;
     font-weight: bold;
-    animation: button-anim 4s infinite;
+    animation: button-anim 4s 2;
     transition: all .4s ease;
 }
 

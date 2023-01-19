@@ -1,8 +1,8 @@
-import './Section1.css'
+import './CallToAction.css'
 import React from 'react';
 
 
-class Section1 extends React.Component{
+class CallToAction extends React.Component{
     constructor(props){
         super(props);
         this.state = {animate:false}
@@ -57,4 +57,4 @@ class Section1 extends React.Component{
         )
     }
 }
-export default Section1
+export default CallToAction

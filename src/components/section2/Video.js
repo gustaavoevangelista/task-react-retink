@@ -1,6 +1,6 @@
-import './Section2.css'
+import './Video.css'
 
-export default function Section2(){
+export default function Video(){
     return (
         <>
             <h1 className='title-section2'>EXPLAINER VIDEO</h1>
